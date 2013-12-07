@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+  <property name="enable-location-services">YES</property>
+  <property name="enable-debug-console">YES</property>
+  <property name="enable-shake-to-home">YES</property>
+  <views>
+    <view>
+      <property name="padding">0</property>
+      <property name="top-padding">0</property>
+      <property name="title-bar-visible">false</property>
+      <widgets>
+        <Layout>
+          <property name="width">100%</property>
+          <property name="padding">30</property>
+          <widgets>
+            <Layout>
+              <property name="height">44</property>
+              <property name="width">100%</property>
+              <widgets>
+                <Text>
+                  <property name="text">hi, nice of you to stop by.</property>
+                  <property name="layout-type">absolute</property>
+                  <property name="horizontal-alignment">center</property>
+                </Text>
+              </widgets>
+            </Layout>
+          </widgets>
+        </Layout>
+      </widgets>
+      <datasources />
+    </view>
+  </views>
+</app>
